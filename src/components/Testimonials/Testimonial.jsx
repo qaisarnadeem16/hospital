@@ -5,32 +5,32 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import profilePic2 from "../../img/profile (1).jpg"
+import profilePic1 from "../../img/profile (2).jpg"
+import profilePic3 from "../../img/profile (3).jpg"
+import profilePic4 from "../../img/profile (4).jpg"
 
 const Testimonial = () => {
   const clients = [
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      " At Drbuttpolyclinic, services of all departments are the best. I don’t have enough words to appreciate the care they provide. Thank you for being so much at every junction of my treatment journey.",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "The treatment provided by Drbuttpolyclinic is superb as well as fair in many ways. All services are cost-effective as much as I experienced during my short period of admission here.",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        " I don’t have enough words to appreciate the care they provide. Thank you for being so much at every junction of my treatment journey.",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "The patient-friendly care that doctors provide here is something more than I ever would have thought. From nurses to paramedical staff everyone works as a team. I would love to recommend the hospital to others.",
     },
   ];
 

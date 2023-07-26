@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import img2 from '../img/imgg (5).jpeg'
+import img1 from '../img/imgg (4).jpeg'
+import img2 from '../img/ot (1).jpg'
+import img3 from '../img/ot (2).jpg'
+import img4 from '../img/ot (3).jpg'
 const OperationTheater = () => {
     return (
         <div className='main1'>
@@ -25,9 +28,12 @@ const OperationTheater = () => {
                             <li>Emergency Equipment </li>
                         </ul>
                     </div>
-                    <div className="">
-                        <img src={img2} alt="" />
-                    </div>
+                    <div className="imgBox">
+                            <img src={img1} alt="" />
+                            <img src={img2} alt="" />
+                            <img src={img3} alt="" />
+                            <img src={img4} alt="" />
+                        </div>
                 </div>
 
             </div>

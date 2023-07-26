@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import img2 from '../img/immgg.jpg'
+import img2 from '../img/pt (1).jpg'
+import img1 from '../img/pt (2).jpg'
+import img3 from '../img/pt (3).jpg'
+import img4 from '../img/pt (4).jpg'
 const PhysiotherapyDepartmnt = () => {
     return (
         <div className='main1'>
@@ -25,9 +28,12 @@ const PhysiotherapyDepartmnt = () => {
                             <li>Medical Records Section  </li>
                         </ul>
                     </div>
-                    <div className="">
-                        <img src={img2} alt="" />
-                    </div>
+                 <div className="imgBox">
+                            <img src={img3} alt="" />
+                            <img src={img2} alt="" />
+                            <img src={img1} alt="" />
+                            <img src={img4} alt="" />
+                        </div>
                 </div>
 
             </div>

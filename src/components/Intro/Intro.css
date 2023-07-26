@@ -4,6 +4,15 @@
   /* margin-top: 6rem; */
 }
 
+.bannerr img{
+  height: 70vh;
+  width: 100%;  
+  border-radius: 1rem;
+}
+.bannerr{
+  display: flex;
+  flex: 1;
+}
 /* left side styling */
 .i-left {
   display: flex;
@@ -100,7 +109,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 1rem 0 ;
+  padding: 2rem 0 ;
 }
 .gallery img{
   width: 23%;
@@ -155,6 +164,11 @@
     width: 47%;
     height: 200px;
   }
+  .bannerr img{
+  height: 50vh;
+  width: 100%;  
+  border-radius: 1rem;
+}
 }
 
 @media screen and (max-width: 380px) {

@@ -70,18 +70,44 @@ a{
 }
 .leftSide1 ul li{
   font-size: 1.3rem;
-  gap: 1rem;
+  gap: 1.2rem;
 }
-.leftSide1 img:nth-child(1){
+/* .leftSide1 img:nth-child(1){
   width: 70%;
-}
+} */
   .main1{
     padding: 0 2rem;
-    height: 100vh;
+    overflow: hidden;
+  }
+  .opd{
+    padding: 0 0 4rem 0 ;
+  }
+
+  .imgBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgBox img{
+    width: 40%;
+ height: 200px;
+    border-radius: .3rem  ;
   }
 
   @media screen and (max-width: 768px) {
-  
+  .imgBox{
+    gap: .5rem;
+  }
+  .main1{
+    padding: 0 .5rem;
+  }
+    .imgBox img{
+      width: 45%;
+   height: 150px;
+      border-radius: .4rem  ;
+    }
     .leftSide1 div:nth-child(1){
       width: 100%;
     }
@@ -99,11 +125,12 @@ a{
       color: var(--orange);
       font-size: 2rem;
       font-weight: bold;
+      text-align: center;
     }
-    .leftSide1 img:nth-child(1){
+    /* .leftSide1 img:nth-child(1){
       width: 100%;
       padding: 2rem 0;
-    }
+    } */
 
   }
   @media screen and (max-width: 480px) {
@@ -111,9 +138,7 @@ a{
       padding: 0.5rem 1rem;
 
     }
-    .main1{
-      padding: 0 1rem 5rem 1rem;
-    }
+
     .leftSide1 div:nth-child(1){
       width: 100%;
     }

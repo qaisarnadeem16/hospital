@@ -1,17 +1,12 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-// import Vector1 from "../../img/Vector1.png";
-// import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/slider-img.jpg";
-// import glassesimoji from "../../img/glassesimoji.png";
-// import thumbup from "../../img/thumbup.png";
-// import crown from "../../img/crown.png";
-// import FloatinDiv from "../FloatingDiv/FloatingDiv";
-// import Github from "../../img/github.png";
-// import LinkedIn from "../../img/linkedin.png";
-// import Instagram from "../../img/instagram.png";
+import img from "../../img/imgg (3).jpeg";
+import img1 from "../../img/imgg (2).jpeg";
+import img2 from "../../img/imgg (1).jpeg";
+import img3 from "../../img/imgg (4).jpeg";
+import img4 from "../../img/imgg (5).jpeg";
 import { themeContext } from "../../Context";
-// import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 const Intro = () => {
   // Transition
@@ -22,6 +17,7 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
+    <>
     <div className="Intro" id="Intro">
       {/* left name side */}
       <div className="i-left">
@@ -44,34 +40,23 @@ const Intro = () => {
         </div> */}
       </div>
       {/* right image side */}
-      <div className="i-righ">
-        {/* <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" /> */}
+      <div className="bannerr">  
         <img src={boy} alt="" />
-        {/* animation */}
-        {/* <motion.img
-          initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
-          transition={transition}
-          src={glassesimoji}
-          alt=""
-        />
 
-        <motion.div
-          initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
-          transition={transition}
-          className="floating-div"
-        >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
-        </motion.div> */}
-
-        
-    
-
-     
       </div>
     </div>
+
+    <div className="gallery">
+      {/* <img src={img} alt="" /> */}
+      <img src={img1} alt="" />
+      <img src={img2} alt="" />
+      <img src={img3} alt="" />
+      <img src={img4} alt="" />
+      
+    </div>
+
+    </>
+    
   );
 };
 

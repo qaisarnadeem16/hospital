@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 // import HeartEmoji from "../../img/t1.png";
 import Glasses from "../../img/t2.png";
 import Humble from "../../img/t3.png";
-import opd from "../../img/t1.png";
+import opd from "../../img/t4.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -28,11 +28,11 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>Hospital Treatment</span>
         <span>services</span>
-        <spane> 
+        {/* <spane> 
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
           ispum is simpley dummy text of printing
-        </spane>
+        </spane> */}
         <a href={Resume} download>
           {/* <button className="button s-button">Download CV</button> */}
         </a>
@@ -59,7 +59,7 @@ const Services = () => {
         <motion.div
           initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
-          transition={transition}
+          // transition={transition}
         >
           <Link to="operationTheater" >
 
@@ -74,7 +74,7 @@ const Services = () => {
         <motion.div
           initial={{ top: "19rem", left: "25rem" }}
           whileInView={{ left: "12rem" }}
-          transition={transition}
+          // transition={transition}
         >
           <Link to="PhysiotherapyDepartmnt" >
 
@@ -93,7 +93,7 @@ const Services = () => {
          <motion.div
           initial={{ top: "10rem", left: "2rem" }}
           whileInView={{ left: "28rem" }}
-          transition={transition}
+          // transition={transition}
         >
           <Link to="laboratory" >
 

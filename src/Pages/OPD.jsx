@@ -28,7 +28,7 @@ const OPD = () => {
                             <li>Specialty Clinics </li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div className="imgBox">
                         <img src={img2} alt="" />
                     </div>
                 </div>

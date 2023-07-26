@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import boy from "../../img/home.jpeg";
+import boy from "../../img/home.jpeg";  
 import img1 from "../../img/imgg (2).jpeg";
 import img2 from "../../img/imgg (1).jpeg";
 import img3 from "../../img/imgg (4).jpeg";

@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import img1 from '../img/Laboratory.jpg'
-import img2 from '../img/lab (1).jpg'
-import img3 from '../img/lab (2).jpg'
-import img4 from '../img/lab (3).jpg'
+import img1 from '../img/lab (4).jpeg'
+import img2 from '../img/lab (1).jpeg'
+import img3 from '../img/lab (2).jpeg'
+import img4 from '../img/lab (3).jpeg'
 const Laboratory = () => {
     return (
         <div className='main1'>

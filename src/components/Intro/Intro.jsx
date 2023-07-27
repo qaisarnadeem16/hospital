@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Intro.css";
 import boy from "../../img/home.jpeg";  
-import img1 from "../../img/imgg (2).jpeg";
-import img2 from "../../img/imgg (1).jpeg";
-import img3 from "../../img/imgg (4).jpeg";
-import img4 from "../../img/imgg (5).jpeg";
+// import img1 from "../../img/imgg (2).jpeg";
+// import img2 from "../../img/imgg (1).jpeg";
+// import img3 from "../../img/imgg (4).jpeg";
+// import img4 from "../../img/imgg (5).jpeg";
 import { themeContext } from "../../Context";
 import { Link } from "react-scroll";
 const Intro = () => {
@@ -45,14 +45,13 @@ const Intro = () => {
       </div>
     </div>
 
-    <div className="gallery">
-      {/* <img src={img} alt="" /> */}
+    {/* <div className="gallery">
       <img src={img1} alt="" />
       <img src={img2} alt="" />
       <img src={img3} alt="" />
       <img src={img4} alt="" />
       
-    </div>
+    </div> */}
 
     </>
     

@@ -65,7 +65,7 @@ const Contact = () => {
         </div>
 
         <div className="user">
-        <p>Adress: Zeeshan colony kmalia</p>
+        <p>Address: Zeeshan colony kmalia</p>
         </div>
       </div>
     </div>

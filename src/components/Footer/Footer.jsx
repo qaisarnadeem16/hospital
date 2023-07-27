@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span >Drbuttpolyclinic</span>
-          <span>Hospital</span>
+          {/* <span>Hospital</span> */}
       </div>
 
        <div>
